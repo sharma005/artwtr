@@ -3,17 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    padding: 0;
+    margin: 0;
+}
 
  .leftside{
-     width: auto;
-     height: 100vh;
-     
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
  }
 
  .leftside img{
-     height: 100vh;
- } 
+    width: 100%; 
+    height: 100vh;
+    background-size: cover;
+ }
+/*  
+ .leftside .logo{
+     justify-content: center;
+     text-align: center;
+ } */
 
  .rightside
 {
@@ -27,7 +39,7 @@
 .rightside img{
     width: 100%;
     height: 350px;
-    
+    overflow: hidden;
 }
 
 .right2
